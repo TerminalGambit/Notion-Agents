@@ -36,10 +36,15 @@ It also riffs on the SR habit of playful agent names (Arthuro, MarghaRita…).
 | `playbooks/due-diligence-support.md` | DD checklist + scored rubric + impact gate. |
 | `playbooks/portfolio-rollup.md` | SIP portfolio status and watch-list. |
 | `playbooks/meeting-prep.md` | Pre-read + agenda for Arthur's external meetings. |
+| `sandbox-test-plan.md` | Runbook for the first live sandbox test. |
 
 ## Status
 
 Draft. Built via `workflows/build-and-optimize-agent.md`, grounded in
-`docs/research/2026-05-29-cos-notion-agent-research.md`. Next steps: confirm the
-full Deal Flow schema live, create the sandbox page, build the golden-task set in
-`evals/hijack/`, and run the optimise loop before marking active.
+`docs/research/2026-05-29-cos-notion-agent-research.md`. The seed golden-task set
+is in `evals/hijack/`.
+
+**Next: sandbox test** (planned). Follow `sandbox-test-plan.md` — create the
+sandbox page, set draft-only permissions, confirm the full Deal Flow schema,
+dry-run each playbook on real data, grade against the golden tasks, and capture
+failures before marking Hijack `active`.
